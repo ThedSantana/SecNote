@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/security_menu" android:enabled="true" android:selectable="false">
+        <Preference android:title="@string/imposta_password" android:key="setPasswordKey"/>
+        <CheckBoxPreference android:key="lockapponpause" android:title="@string/enable_auto_lock" android:summary="@string/summary_enable_auto_lock" android:defaultValue="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/help_menu" android:enabled="true" android:selectable="false">
+        <CheckBoxPreference
+            android:key="hints_value"
+            android:defaultValue="true"
+            android:summary="@string/summary_hints"
+            android:title="@string/show_hints"
+            />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="@string/other_menu" android:enabled="true" android:selectable="false">
+        <Preference android:title="Info" android:summary="@string/about_sn" android:key="infoactivityrun"/>
+
+
+        <Preference android:title="BaraccaSoftware" android:summary="@string/about_bs" android:key="infobaracca" />
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

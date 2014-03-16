@@ -49,7 +49,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="github.com/chemickypes/SecNot"
+        android:text="github.com/chemickypes/SecNote"
         android:textColor="@android:color/holo_blue_light"
         android:id="@+id/textView_code"
         android:layout_alignParentBottom="true"

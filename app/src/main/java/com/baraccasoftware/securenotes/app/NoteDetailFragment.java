@@ -145,7 +145,6 @@ public class NoteDetailFragment extends Fragment implements UndoBarController.Un
         });
         deleteImage.setVisibility(View.GONE);
 
-
         mSlidingDrawer = (SlidingDrawer) rootView.findViewById(R.id.sliding);
         mSlidingDrawer.setOnDrawerCloseListener(new SlidingDrawer.OnDrawerCloseListener() {
             @Override
